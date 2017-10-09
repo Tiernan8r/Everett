@@ -1,0 +1,17 @@
+main: me.Tiernanator.Everett.EverettMain
+version: 1.0
+name: Everett
+description: Handles the Many-World interpretation of Bukkit.
+load: POSTWORLD
+author: Tiernanator
+website: None
+database: false
+depend: []
+prefix: MWI
+softdepend: []
+loadbefore: [Portalz]
+commands:
+    teleport:
+        description: Move to the world named world, at the given coordinates.
+    createworld:
+        description: Create a world of the given name.
